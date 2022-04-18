@@ -12,15 +12,15 @@ body{
 
 .contents{
     height: 100%;
-    background-color: rgb(0, 0, 255);
+    background-color: rgb(65, 105, 225);
 }
 body{
     background-color: gray;
 }
 
 .contents1{
-    background-color: rgb(0, 0, 255);
+    background-color: rgb(65, 105, 225);
 }
 .contents{
-    background-color: rgb(0, 0, 255);
+    background-color: rgb(65, 105, 225);
 }
