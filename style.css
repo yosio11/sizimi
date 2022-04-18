@@ -2,25 +2,13 @@
     margin: 0;
     padding: 0;
 }
-html,body{
-    height: 100%;
-}
 
 body{
     background-color: gray;
 }
 
 .contents{
-    height: 100%;
-    background-color: rgb(65, 105, 225);
-}
-body{
-    background-color: gray;
-}
-
-.contents1{
-    background-color: rgb(65, 105, 225);
-}
-.contents{
+    width: 100vw;
+    height: 100vh;
     background-color: rgb(65, 105, 225);
 }
