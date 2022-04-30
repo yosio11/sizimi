@@ -8,37 +8,31 @@
 <body>
     <div class="contents">
         <h1>sizimi連合公式webサイトへようこそ！</h1>
-        <b>このサイトでは、sizimi同盟の様々な情報を載せていきます！</b>
-        <p>更新情報</p>
+        <h2>このサイトでは、sizimi同盟の様々な情報を載せていきます！</h2>
+        <h3>更新情報</h3>
+        <p>2022/05/01　sizimi連合公式webサイトのデザインが大きく変わりました！</p>
+        <p>2022/04/30　アクセスしているあなたの端末情報がわかるようになりました！</p>
         <p>2022/04/25　アクセスした日付と時間がわかるようになりました！</p>
         <p>2022/04/24　sizimi連合の規約書を公開しました！</p>
         <p>2022/04/19　sizimi連合の本部のロゴを追加しました！</p>
         <P>2022/04/18　この度、sizimi連合の公式webサイト、開設いたしました！</P>
         <img src="https://yosio11.github.io/sizimi/sizimi.png" alt="しじみのロゴ" title="ロゴマーク">
         <P>______________________________________________________________</P>
+        <h3>sizimi連合の規約書はこちら↓（必ず読んで下さい）</h3>
         <p>sizimi連合規約書</p>
         <a href="https://yosio11.github.io/sizimi-Terms-of-use/">https://yosio11.github.io/sizimi-Terms-of-use/</a>
         <P>______________________________________________________________</P>
-        <p>sizimi連合関連のURLです。</p>
+        <h3>sizimi連合関連のURLです。</h3>
         <p>sizimi連合本部のgoogle Drive</p>
         <a href="https://drive.google.com/drive/folders/19zw1Oxf1SHmEBL2WRxfJ_WDnMICzMczV">https://drive.google.com/drive/folders/19zw1Oxf1SHmEBL2WRxfJ_WDnMICzMczV</a>
         <p>sizimi連合のgoogle classroom</p>
         <a href="https://classroom.google.com/c/NDY5Nzk2NDI4NDM2">https://classroom.google.com/c/NDY5Nzk2NDI4NDM2</a>
         <p>sizimi連合のgoogle meet</p>
         <a href="https://meet.google.com/pxu-awjq-dew">https://meet.google.com/pxu-awjq-dew</a>
-        <P>↓おまけ</P> 
-        <head>
-            <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-            <title></title>
-            <meta charset="utf-8" />
-        </head>
-        <body>
-            <input type="button" value="秘密のボタン" onclick="document.getElementById('output').innerHTML='なにかあるわけでもありません';" /><br />
-            <br />
-            <div id="output"></div>
-        </body>
-        <p>おまけその2</p>
-        <p>このサイトにアクセスした日付と時間です↓</p>
+        <p>sizimi連合チャットルーム</p>
+        <a href="https://mail.google.com/chat/u/0/#chat/space/AAAAaklH1lA">https://mail.google.com/chat/u/0/#chat/space/AAAAaklH1lA</a>
+        <p>______________________________________________________________</p>
+        <h3>このサイトにアクセスした日付と時間です↓</h3>
         <script>//今日の日付データを変数に格納
         //変数は"today"とする
         var today=new Date(); 
@@ -53,7 +47,7 @@
         
         //年・月・日・曜日を書き出す
         document.write(year+"年"+month+"月"+day+"日 "+week_ja[week]+"曜日");</script>
-    <script>//時刻データを取得して変数に格納する
+        <script>//時刻データを取得して変数に格納する
         //変数は"time"とする
         var time= new Date();
         
@@ -63,7 +57,45 @@
         var second = time.getSeconds();
         
         document.write(hour+"時",+minute+"分"+second+"秒");</script>
-        <P>作　佐野 舜</P>
+        <p>______________________________________________________________</p>
+        <h3>このサイトにアクセスしているあなたの端末情報です↓（誰でも開示しているよ）</h3>
+        <script>
+            //端末情報の取得のエリアです
+            var a=location.pathname
+            var b=location.appCodeName
+            var c=navigator.appName
+            var d=navigator.appVersion
+            var e=navigator.language
+            var f=navigator.platform
+            var g=navigator.userAgent
+            document.write("ページURLのパス:"+a);
+            //ここからは、改行のために<script>が沢山あります
+        </script>
+        <br>
+        <script>document.write("ブラウザのコードネーム:"+b);</script>
+        <br>
+        <script>document.write("ブラウザ名:"+c);</script>
+        <br>
+        <script>document.write("ブラウザのバージョン:"+d);</script>
+        <br>
+        <script>document.write("ブラウザの使用言語:"+e);</script>
+        <br>
+        <script>document.write("ブラウザのプラットフォーム:"+f);</script>
+        <br>
+        <script>document.write("ブラウザのユーザーエージェント:"+g);
+        //結構強引でしょ
+        </script>
+        <br>
+        <script type="text/javascript">alert("ようこそ、sizimi連合公式wedサイトへ！");</script>
+        <p>______________________________________________________________</p>
+        <b>ボタンです↓</b> 
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+            <title></title>
+            <meta charset="utf-8" />
+            <input type="button" value="秘密のボタン" onclick="document.getElementById('output').innerHTML='これはおまけです。';" /><br />
+            <br />
+            <div id="output"></div>
+        <h4>作　佐野 舜</h4>
     </div>
 </body>
 </html>        
