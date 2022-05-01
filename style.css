@@ -11,12 +11,13 @@ h2 {
   padding: 0.1em 0;/*上下の余白*/
   border-top: solid 3px #4682B4;/*上線*/
   border-bottom: solid 3px #4682B4;/*下線*/
+  background: #AFEEEE;/*背景色*/
 }
 h3 {
   padding: 0.1em;/*文字周りの余白*/
   color: #000000;/*文字色*/
   background: #7aefff;/*背景色*/
-  border-left: solid 5px #00BFFF;/*左線（実線 太さ 色）*/
+  border-left: solid 5px #389cff;/*左線（実線 太さ 色）*/
 }
 html {
   height:100%;
