@@ -3,12 +3,12 @@
     padding: 0;
 }
 h1 {
-  background: #bdfffd;/*背景色*/
-  padding: 0.5em;/*文字まわり（上下左右）の余白*/
+  background: #dbddc5;/*背景色*/
+  padding: 0.2em;/*文字まわり（上下左右）の余白*/
 }
 h2 {
   color: #000000;/*文字色*/
-  background: #bdfffd;/*背景色*/
+  background: #dbddc5;/*背景色*/
 }
 h3 {
   padding: 0.1em;/*文字周りの余白*/
