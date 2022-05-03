@@ -3,20 +3,17 @@
     padding: 0;
 }
 h1 {
-  background: #AFEEEE;/*背景色*/
+  background: #bdfffd;/*背景色*/
   padding: 0.5em;/*文字まわり（上下左右）の余白*/
 }
 h2 {
   color: #000000;/*文字色*/
-  padding: 0.1em 0;/*上下の余白*/
-  border-top: solid 3px #4682B4;/*上線*/
-  border-bottom: solid 3px #4682B4;/*下線*/
-  background: #AFEEEE;/*背景色*/
+  background: #bdfffd;/*背景色*/
 }
 h3 {
   padding: 0.1em;/*文字周りの余白*/
   color: #000000;/*文字色*/
-  background: #8ff8ff;/*背景色*/
+  background: #8eabf6;/*背景色*/
   border-left: solid 5px #3845ff;/*左線（実線 太さ 色）*/
 }
 html {
@@ -58,7 +55,7 @@ body {
 .contents {
   margin: 0px auto;
   width:1300px;
-  background: #8fd7ff;
+  background: #bfedd5;
 }
 h1 {
   text-align:center
