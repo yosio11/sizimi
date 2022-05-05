@@ -62,7 +62,10 @@ body {
   background: #dbddc5;/*背景色*/
 }
 h2 {
-  text-align:center
+  text-align:center;
+}
+button_line001 table {
+margin:auto;
 }
 /* LINE001 */
 .button_line001 a {
@@ -70,7 +73,8 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 0 ;
+    margin: 0 auto;
+    max-width: 1000px;
     padding: 10px 25px;
     color: #313131;
     transition: 0.3s ease-in-out;
